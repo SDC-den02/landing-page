@@ -1,8 +1,8 @@
 import React from 'react';
 
-import App from './client/src/components/App.jsx';
+import DetailListItem from './client/src/components/DetailListItem.jsx';
 import { mount } from 'enzyme';
 
 
-test('App component renders the text of the app', () => {
+test('DetailListItem component renders the text of the DetailsListItem ', () => {
 });
