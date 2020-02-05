@@ -10,9 +10,9 @@ const DetailListItem = (props) => {
       <li style={{listStyleType: "none"}}><i className="fas fa-key" style={{color: "green"}}></i> {props.feature_five}</li>
       <li style={{listStyleType: "none"}}><i className="fas fa-car" style={{color: "green"}}></i> {props.feature_six}</li>
       <h3>
-      <li style={{listStyleType: "none"}}><i className="fas fa-car"></i> {props.engine}</li>
-      <li style={{listStyleType: "none"}}><i className="fas fa-gas-pump"></i> {props.MPG} </li>
-      <li style={{listStyleType: "none"}}><i className="fas fa-oil-can"></i> Mileage: {props.mileage} Miles </li>
+      <li style={{listStyleType: "none"}}><i className="fas fa-car" style={{color: "green"}}></i> {props.engine}</li>
+      <li style={{listStyleType: "none"}}><i className="fas fa-gas-pump" style={{color: "green"}}></i> {props.MPG} </li>
+      <li style={{listStyleType: "none"}}><i className="fas fa-oil-can" style={{color: "green"}}></i> Mileage: {props.mileage} Miles </li>
       </h3>
     </div>
   )

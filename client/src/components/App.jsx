@@ -34,9 +34,9 @@ class App extends React.Component {
           <img src="logo.png" />
         </div>
         <div className="buttons">
-        <button> <img src="contact_us.png"/> </button>
-        <button> <img src="extend_warranty_button.png"/> </button>
-        <button> <img src="get_financing_button.png"/> </button>
+        <button> <img className="images" src="contact_us.png"/> </button>
+        <button> <img className="images" src="extend_warranty_button.png"/> </button>
+        <button> <img className="images" src="get_financing_button.png"/> </button>
         </div>
         <div className="highlighted-features">
         <DetailList
