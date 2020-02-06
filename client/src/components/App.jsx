@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   getAllDetails() {
-    fetch('http://localhost:3000/api/details')
+    fetch('http://localhost:3004/api/details')
       .then((response) => response.json())
       .then((data) => {
         this.setState({

@@ -41,7 +41,7 @@ CREATE TABLE venicle
   INSERT INTO venicle
     (cost,name,engine, color, MPG, mileage, feature_one, feature_two, feature_three, feature_four, feature_five, feature_six)
   VALUES
-    ('13000', 'Toyota Yaris', '1.5L I-4 Cyl', 'Pulse', '32 mpg City 40 mpg Hwy', '33886', 'Wireless phone connectivity', 'Split folding rear seat', 'Steering wheel mounted audio controls', 'Exterior parking camera rear', 'Remote keyless entry', 'Alloy wheels'),
+    ('13000', 'Toyota Yaris', '1.5L I-4 Cyl', 'Pulse', '32 mpg City 40 mpg Hwy', '33,886', 'Wireless phone connectivity', 'Split folding rear seat', 'Steering wheel mounted audio controls', 'Exterior parking camera rear', 'Remote keyless entry', 'Alloy wheels'),
     ('11239', 'Nissan Sentra', '1.8L I-4 Cyl', 'Fresh Powder', '29 mpg City 37 mpg Hwy', '39886', 'Wireless phone connectivity', 'Split folding rear seat', 'Steering wheel mounted audio controls', 'Exterior parking camera rear', 'Remote keyless entry', 'Fully automatic headlights'),
     ('11289', 'Ford Focus', '2.0L I-4 Cyl', 'Ruby', '26 mpg City 36 mpg Hwy', '33199', 'Emergency communication system', 'Heated front seats', 'Remote keyless entry', 'Parking sensors', 'Heated steering wheel', 'Perimeter approach lights'),
     ('11369', 'Nissan Sentra', '1.8L I-4 Cyl', 'White', '29 mpg City 37 mpg Hwy', 39886, 'Wireless phone connectivity', 'Split folding rear seat', 'Steering wheel mounted audio controls', 'Exterior parking camera rear', 'Remote keyless entry', 'Fully automatic headlights'),

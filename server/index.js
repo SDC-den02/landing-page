@@ -11,7 +11,7 @@ app.use(express.static('client/dist'));
 
 app.use('/api/details', detailsRoutes);
 
-const PORT = process.env.eslintrcPORT || 3000;
+const PORT = process.env.eslintrcPORT || 3004;
 console.log(process.env.PORT);
 
 app.listen(PORT, () => console.log(`server running on port: ${PORT}`));
